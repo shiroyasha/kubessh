@@ -27,3 +27,20 @@ $ kubessh nginx
 ** running: kubectl exec -ti nginx-2865216395-nlphp -- /bin/bash **
 root@nginx-2865216395-nlphp $
 ```
+
+Execute an arbitrary command on the pod:
+
+``` bash
+$ kubessh app cat app.rb
+** running: kubectl exec -ti nginx-2865216395-nlphp -- cat app.rb **
+require "sinatra"
+
+get "/" do
+  "Hello World"
+end
+```
+
+``` bash
+$ kubessh nginx top
+** running: kubectl exec -ti nginx-2865216395-nlphp -- top **
+```
