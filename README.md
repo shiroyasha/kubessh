@@ -2,6 +2,8 @@
 
 Simple way to jump into your pods.
 
+Note: Technically, we are not running SSH, but the usage pattern is similar.
+
 ## Installation
 
 ``` bash
