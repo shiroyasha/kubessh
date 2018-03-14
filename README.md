@@ -7,7 +7,7 @@ Note: Technically, we are not running SSH, but the usage pattern is similar.
 ## Installation
 
 ``` bash
-sudo git clone git@github.com:shiroyasha/kubessh.git /opt/kubessh
+sudo git clone https://github.com/shiroyasha/kubessh.git /opt/kubessh
 sudo ln -s /opt/kubessh/kubessh /usr/local/bin/kubessh
 ```
 
